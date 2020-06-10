@@ -10,13 +10,13 @@ import UIKit
 
 enum AdUnitId {
     enum interstitial {
-        static let id = interstitial.test
+        static let id = interstitial.real
         static let test = "ca-app-pub-3940256099942544/4411468910"
         static let real = "ca-app-pub-3986084569145000/8853873883"
     }
     
     enum banner {
-        static let id = banner.test
+        static let id = banner.real
         static let test = "ca-app-pub-3940256099942544/2934735716"
         static let real = "ca-app-pub-3986084569145000/2381883198"
     }

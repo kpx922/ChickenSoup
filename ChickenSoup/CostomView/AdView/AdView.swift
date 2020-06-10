@@ -34,7 +34,9 @@ class AdView: UIView {
         bannerView.adUnitID = AdUnitId.banner.id
         bannerView.delegate = self
         bannerView.rootViewController = rootViewController
-        bannerView.load(GADRequest())
+        
+        let request = GADRequest()
+        bannerView.load(request)
     }
     
     fileprivate func configure() {

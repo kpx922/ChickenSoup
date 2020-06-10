@@ -141,7 +141,6 @@ class MainTableViewController: UIViewController {
         }
         
         interstitial.present(fromRootViewController: self)
-        negativityCounts = 0
     }
     
     fileprivate func presentAlert() {
@@ -195,7 +194,20 @@ extension MainTableViewController: CSAlertViewControllerDismissDelegate {
 extension MainTableViewController: DropDownMenuViewControllerDelegate, GADInterstitialDelegate {
     func interstitialDidDismissScreen(_ ad: GADInterstitial) {
         interstitial = createAndLoadInterstitial()
-        presentSecondViewController(with: selectedOption)
+        negativityCounts = 0
+    }
+    
+    func interstitialDidReceiveAd(_ ad: GADInterstitial) {
+        print("did received ad")
+    }
+    
+    func interstitialDidFail(toPresentScreen ad: GADInterstitial) {
+        print("did fail to present")
+    }
+    
+    func interstitial(_ ad: GADInterstitial, didFailToReceiveAdWithError error: GADRequestError) {
+        print("error")
+        
     }
     
     func restorePurchases() {
