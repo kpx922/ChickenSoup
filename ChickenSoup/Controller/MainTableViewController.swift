@@ -146,7 +146,16 @@ class MainTableViewController: UIViewController {
     fileprivate func presentAlert() {
         let title = "Warning"
         let message = "Viewing too many negativity may result depression :P"
-        presentCSAlertOnMainThread(type: .warning, title: title, message: message, buttonTitle: "OK", fromView: self)
+
+        let alertViewController = CSAlertViewController(type: .warning, title: title, message: message, buttonTitle: "OK")
+        alertViewController.modalPresentationStyle = .overFullScreen
+        alertViewController.modalTransitionStyle = .crossDissolve
+        alertViewController.dismissDelegate = self
+        
+        DispatchQueue.main.async { [weak self] in
+            guard let self = self else { return }
+            self.present(alertViewController, animated: true)
+        }
     }
 }
 
@@ -197,17 +206,8 @@ extension MainTableViewController: DropDownMenuViewControllerDelegate, GADInters
         negativityCounts = 0
     }
     
-    func interstitialDidReceiveAd(_ ad: GADInterstitial) {
-        print("did received ad")
-    }
-    
-    func interstitialDidFail(toPresentScreen ad: GADInterstitial) {
-        print("did fail to present")
-    }
-    
     func interstitial(_ ad: GADInterstitial, didFailToReceiveAdWithError error: GADRequestError) {
         print("error")
-        
     }
     
     func restorePurchases() {

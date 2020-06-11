@@ -11,7 +11,7 @@ import GoogleMobileAds
 
 class AdView: UIView {
     
-    var bannerView = GADBannerView(adSize: kGADAdSizeBanner)
+    var bannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
     var removeAdButton = CSRemoveAdButton(type: .system)
     weak var rootviewController: UIViewController?
     
@@ -91,8 +91,10 @@ class AdView: UIView {
 
 extension AdView: GADBannerViewDelegate {
     func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+        print("Banner adapter class name: \(bannerView.responseInfo?.adNetworkClassName)")
         addBannerView()
     }
+    
     
     func adView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: GADRequestError) {
         print("didFailToReceiveAdWithError", error)

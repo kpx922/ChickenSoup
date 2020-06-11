@@ -16,7 +16,6 @@
 		D85E7DFF24807BED0045AB96 /* CSAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E7DFE24807BEC0045AB96 /* CSAlertView.swift */; };
 		D85E7E022481D62E0045AB96 /* CSAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E7E012481D62E0045AB96 /* CSAlertViewController.swift */; };
 		D85E7E042481D6DC0045AB96 /* CSBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E7E032481D6DC0045AB96 /* CSBodyLabel.swift */; };
-		D85E7E062481DFF20045AB96 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E7E052481DFF20045AB96 /* UIViewController+Ext.swift */; };
 		D85E7E082483A65B0045AB96 /* CSActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E7E072483A65B0045AB96 /* CSActionButton.swift */; };
 		D85E7E0A24871DFC0045AB96 /* DropDownMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E7E0924871DFC0045AB96 /* DropDownMenuViewController.swift */; };
 		D85E7E0C24871E740045AB96 /* CSMenuCloseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E7E0B24871E740045AB96 /* CSMenuCloseButtonView.swift */; };
@@ -50,7 +49,6 @@
 		D85E7DFE24807BEC0045AB96 /* CSAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSAlertView.swift; sourceTree = "<group>"; };
 		D85E7E012481D62E0045AB96 /* CSAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSAlertViewController.swift; sourceTree = "<group>"; };
 		D85E7E032481D6DC0045AB96 /* CSBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSBodyLabel.swift; sourceTree = "<group>"; };
-		D85E7E052481DFF20045AB96 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		D85E7E072483A65B0045AB96 /* CSActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSActionButton.swift; sourceTree = "<group>"; };
 		D85E7E0924871DFC0045AB96 /* DropDownMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownMenuViewController.swift; sourceTree = "<group>"; };
 		D85E7E0B24871E740045AB96 /* CSMenuCloseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSMenuCloseButtonView.swift; sourceTree = "<group>"; };
@@ -259,7 +257,6 @@
 				D8B2313724357D6600C979F1 /* Constants.swift */,
 				D8B231392436C67E00C979F1 /* Double+Ext.swift */,
 				D8B2313524355E9D00C979F1 /* UIView+Ext.swift */,
-				D85E7E052481DFF20045AB96 /* UIViewController+Ext.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -399,7 +396,6 @@
 				D8B2313D243727D100C979F1 /* CSBackgroundImageView.swift in Sources */,
 				D85E7DF9247F30680045AB96 /* CSCloseButton.swift in Sources */,
 				D85E7E0A24871DFC0045AB96 /* DropDownMenuViewController.swift in Sources */,
-				D85E7E062481DFF20045AB96 /* UIViewController+Ext.swift in Sources */,
 				D8B2314024372AFB00C979F1 /* CSTitleLabel.swift in Sources */,
 				D85E7E0F248730F20045AB96 /* DropDownMenuView.swift in Sources */,
 				D8B23134243559B200C979F1 /* Utility.swift in Sources */,
@@ -558,7 +554,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = V33EQW8FKJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ChickenSoup/Info.plist;
@@ -583,7 +579,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = V33EQW8FKJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ChickenSoup/Info.plist;

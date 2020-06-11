@@ -18,7 +18,7 @@ enum AdUnitId {
     enum banner {
         static let id = banner.real
         static let test = "ca-app-pub-3940256099942544/2934735716"
-        static let real = "ca-app-pub-3986084569145000/2381883198"
+        static let real = "ca-app-pub-3986084569145000/1127420937"
     }
 }
 
