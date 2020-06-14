@@ -52,8 +52,8 @@ class CSCell: UITableViewCell {
         
         let width = frame.width
         let height = frame.height
-        let viewWidth = width - 32
-        let viewHeight = height - 16
+        let viewWidth = width - 50
+        let viewHeight = height - 24
         
         let cellPath = UIBezierPath(roundedRect: CGRect(x: 0, y: 0, width: width, height: height), cornerRadius: 0)
         let rect = CGRect(x: (width - viewWidth) / 2, y:  (height - viewHeight) / 2, width: viewWidth, height: viewHeight)
