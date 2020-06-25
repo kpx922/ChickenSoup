@@ -8,7 +8,6 @@
 
 import StoreKit
 
-
 typealias CompletionHandler = (_ success: Bool) -> Void
 
 class PurchaseManager: NSObject, SKProductsRequestDelegate, SKPaymentTransactionObserver {
@@ -63,6 +62,7 @@ class PurchaseManager: NSObject, SKProductsRequestDelegate, SKPaymentTransaction
         print("payment queue")
         transactions.forEach({
             switch $0.transactionState {
+                
             case .purchased:
                 SKPaymentQueue.default().finishTransaction($0)
                 if $0.payment.productIdentifier == IAPRemoveAds {

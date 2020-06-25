@@ -104,6 +104,8 @@ class MainTableViewController: UIViewController {
     }
     
     fileprivate func layoutViews() {
+        let adViewButtonConstant: CGFloat = UIDevice.current.userInterfaceIdiom == .pad ? -16 : 0
+
         view.addSubviews(tableView, adView)
         
         NSLayoutConstraint.activate([
@@ -112,9 +114,9 @@ class MainTableViewController: UIViewController {
             tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             tableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
             
-            adView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
+            adView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: adViewButtonConstant),
             adView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            adView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width),
+            adView.widthAnchor.constraint(equalToConstant: min(UIScreen.main.bounds.width, 600)),
             adView.heightAnchor.constraint(equalToConstant: 100)
         ])
     }
