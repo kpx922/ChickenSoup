@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CSBackgroundImageView: UIImageView{
+class CSBackgroundImageView: UIImageView {
     
     let maxRelativeValue: CGFloat = 24
     let xTransformKeyPath = "layer.transform.translation.x"

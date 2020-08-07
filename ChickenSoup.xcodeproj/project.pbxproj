@@ -36,7 +36,64 @@
 		D8B2313A2436C67E00C979F1 /* Double+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B231392436C67E00C979F1 /* Double+Ext.swift */; };
 		D8B2313D243727D100C979F1 /* CSBackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2313C243727D100C979F1 /* CSBackgroundImageView.swift */; };
 		D8B2314024372AFB00C979F1 /* CSTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2313F24372AFB00C979F1 /* CSTitleLabel.swift */; };
+		D8C9935C24B1389200E3DFE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C9935B24B1389200E3DFE1 /* AppDelegate.swift */; };
+		D8C9935E24B1389200E3DFE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C9935D24B1389200E3DFE1 /* SceneDelegate.swift */; };
+		D8C9936024B1389200E3DFE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C9935F24B1389200E3DFE1 /* ViewController.swift */; };
+		D8C9936324B1389200E3DFE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8C9936124B1389200E3DFE1 /* Main.storyboard */; };
+		D8C9936524B1389500E3DFE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8C9936424B1389500E3DFE1 /* Assets.xcassets */; };
+		D8C9937424B1389600E3DFE1 /* ChickenSoup_ClipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C9937324B1389600E3DFE1 /* ChickenSoup_ClipTests.swift */; };
+		D8C9937F24B1389600E3DFE1 /* ChickenSoup_ClipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C9937E24B1389600E3DFE1 /* ChickenSoup_ClipUITests.swift */; };
+		D8C9938324B1389600E3DFE1 /* ChickenSoup Clip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = D8C9935924B1389200E3DFE1 /* ChickenSoup Clip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D8C9938E24B139BF00E3DFE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B231222433F3E300C979F1 /* LaunchScreen.storyboard */; };
+		D8C9939024B13A4E00E3DFE1 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8C9938F24B13A4E00E3DFE1 /* SharedAssets.xcassets */; };
+		D8C9939124B13A7400E3DFE1 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8C9938F24B13A4E00E3DFE1 /* SharedAssets.xcassets */; };
+		D8C9939424B140A900E3DFE1 /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E7DF5246F7DBE0045AB96 /* QuoteViewController.swift */; };
+		D8C9939524B140B800E3DFE1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2313724357D6600C979F1 /* Constants.swift */; };
+		D8C9939624B140C100E3DFE1 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2313524355E9D00C979F1 /* UIView+Ext.swift */; };
+		D8C9939724B140E800E3DFE1 /* CSCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E7DF8247F30680045AB96 /* CSCloseButton.swift */; };
+		D8C9939824B140ED00E3DFE1 /* CSActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E7E072483A65B0045AB96 /* CSActionButton.swift */; };
+		D8C9939924B140FB00E3DFE1 /* CSTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2313F24372AFB00C979F1 /* CSTitleLabel.swift */; };
+		D8C9939A24B1410400E3DFE1 /* CSBackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2313C243727D100C979F1 /* CSBackgroundImageView.swift */; };
+		D8C9939B24B1411500E3DFE1 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E7E11248866A30045AB96 /* Quote.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8C9937024B1389600E3DFE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8B2310C2433F3DA00C979F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8C9935824B1389200E3DFE1;
+			remoteInfo = "ChickenSoup Clip";
+		};
+		D8C9937B24B1389600E3DFE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8B2310C2433F3DA00C979F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8C9935824B1389200E3DFE1;
+			remoteInfo = "ChickenSoup Clip";
+		};
+		D8C9938124B1389600E3DFE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8B2310C2433F3DA00C979F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8C9935824B1389200E3DFE1;
+			remoteInfo = "ChickenSoup Clip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D8C9938424B1389600E3DFE1 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				D8C9938324B1389600E3DFE1 /* ChickenSoup Clip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		687A83D962AE5B3206F734BC /* Pods-ChickenSoup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChickenSoup.debug.xcconfig"; path = "Target Support Files/Pods-ChickenSoup/Pods-ChickenSoup.debug.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +128,21 @@
 		D8B231392436C67E00C979F1 /* Double+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Ext.swift"; sourceTree = "<group>"; };
 		D8B2313C243727D100C979F1 /* CSBackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSBackgroundImageView.swift; sourceTree = "<group>"; };
 		D8B2313F24372AFB00C979F1 /* CSTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSTitleLabel.swift; sourceTree = "<group>"; };
+		D8C9935924B1389200E3DFE1 /* ChickenSoup Clip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChickenSoup Clip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C9935B24B1389200E3DFE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8C9935D24B1389200E3DFE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D8C9935F24B1389200E3DFE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8C9936224B1389200E3DFE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8C9936424B1389500E3DFE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8C9936924B1389500E3DFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8C9936A24B1389500E3DFE1 /* ChickenSoup_Clip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChickenSoup_Clip.entitlements; sourceTree = "<group>"; };
+		D8C9936F24B1389500E3DFE1 /* ChickenSoup ClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChickenSoup ClipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C9937324B1389600E3DFE1 /* ChickenSoup_ClipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenSoup_ClipTests.swift; sourceTree = "<group>"; };
+		D8C9937524B1389600E3DFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8C9937A24B1389600E3DFE1 /* ChickenSoup ClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChickenSoup ClipUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C9937E24B1389600E3DFE1 /* ChickenSoup_ClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenSoup_ClipUITests.swift; sourceTree = "<group>"; };
+		D8C9938024B1389600E3DFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8C9938F24B13A4E00E3DFE1 /* SharedAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SharedAssets.xcassets; sourceTree = "<group>"; };
 		E40F8CC7B03B0D95D24D0EA8 /* Pods_ChickenSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChickenSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,6 +153,27 @@
 			files = (
 				D88990A4245B9AE500A9396E /* StoreKit.framework in Frameworks */,
 				6ABEFF18813ABD44424E5747 /* Pods_ChickenSoup.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C9935624B1389200E3DFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C9936C24B1389500E3DFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C9937724B1389600E3DFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +269,9 @@
 			isa = PBXGroup;
 			children = (
 				D8B231162433F3DA00C979F1 /* ChickenSoup */,
+				D8C9935A24B1389200E3DFE1 /* ChickenSoup Clip */,
+				D8C9937224B1389600E3DFE1 /* ChickenSoup ClipTests */,
+				D8C9937D24B1389600E3DFE1 /* ChickenSoup ClipUITests */,
 				D8B231152433F3DA00C979F1 /* Products */,
 				D88990A2245B9AE500A9396E /* Frameworks */,
 				9F6CA2E83A016C5E45113293 /* Pods */,
@@ -186,6 +282,9 @@
 			isa = PBXGroup;
 			children = (
 				D8B231142433F3DA00C979F1 /* ChickenSoup.app */,
+				D8C9935924B1389200E3DFE1 /* ChickenSoup Clip.app */,
+				D8C9936F24B1389500E3DFE1 /* ChickenSoup ClipTests.xctest */,
+				D8C9937A24B1389600E3DFE1 /* ChickenSoup ClipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,9 +292,10 @@
 		D8B231162433F3DA00C979F1 /* ChickenSoup */ = {
 			isa = PBXGroup;
 			children = (
-				D85E7E10248866900045AB96 /* Model */,
-				D85E7DEB245E5BCE0045AB96 /* Managers */,
+				D8C9939224B13B6600E3DFE1 /* Shared */,
 				D8B2312E2435479B00C979F1 /* CostomView */,
+				D85E7DEB245E5BCE0045AB96 /* Managers */,
+				D85E7E10248866900045AB96 /* Model */,
 				D8B23130243547B900C979F1 /* Controller */,
 				D8B23132243559A600C979F1 /* Utility */,
 				D8B2312B2435436F00C979F1 /* Support */,
@@ -210,7 +310,6 @@
 				D8B231172433F3DA00C979F1 /* AppDelegate.swift */,
 				D8B231192433F3DA00C979F1 /* SceneDelegate.swift */,
 				D8B231202433F3E300C979F1 /* Assets.xcassets */,
-				D8B231222433F3E300C979F1 /* LaunchScreen.storyboard */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -278,6 +377,47 @@
 			path = Label;
 			sourceTree = "<group>";
 		};
+		D8C9935A24B1389200E3DFE1 /* ChickenSoup Clip */ = {
+			isa = PBXGroup;
+			children = (
+				D8C9935B24B1389200E3DFE1 /* AppDelegate.swift */,
+				D8C9935D24B1389200E3DFE1 /* SceneDelegate.swift */,
+				D8C9935F24B1389200E3DFE1 /* ViewController.swift */,
+				D8C9936124B1389200E3DFE1 /* Main.storyboard */,
+				D8C9936424B1389500E3DFE1 /* Assets.xcassets */,
+				D8C9936924B1389500E3DFE1 /* Info.plist */,
+				D8C9936A24B1389500E3DFE1 /* ChickenSoup_Clip.entitlements */,
+			);
+			path = "ChickenSoup Clip";
+			sourceTree = "<group>";
+		};
+		D8C9937224B1389600E3DFE1 /* ChickenSoup ClipTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8C9937324B1389600E3DFE1 /* ChickenSoup_ClipTests.swift */,
+				D8C9937524B1389600E3DFE1 /* Info.plist */,
+			);
+			path = "ChickenSoup ClipTests";
+			sourceTree = "<group>";
+		};
+		D8C9937D24B1389600E3DFE1 /* ChickenSoup ClipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8C9937E24B1389600E3DFE1 /* ChickenSoup_ClipUITests.swift */,
+				D8C9938024B1389600E3DFE1 /* Info.plist */,
+			);
+			path = "ChickenSoup ClipUITests";
+			sourceTree = "<group>";
+		};
+		D8C9939224B13B6600E3DFE1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D8C9938F24B13A4E00E3DFE1 /* SharedAssets.xcassets */,
+				D8B231222433F3E300C979F1 /* LaunchScreen.storyboard */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -290,15 +430,70 @@
 				D8B231112433F3DA00C979F1 /* Frameworks */,
 				D8B231122433F3DA00C979F1 /* Resources */,
 				E02D4E8B45D4B9A03DA96F38 /* [CP] Embed Pods Frameworks */,
+				D8C9938424B1389600E3DFE1 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D8C9938224B1389600E3DFE1 /* PBXTargetDependency */,
 			);
 			name = ChickenSoup;
 			productName = ChickenSoup;
 			productReference = D8B231142433F3DA00C979F1 /* ChickenSoup.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D8C9935824B1389200E3DFE1 /* ChickenSoup Clip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8C9938B24B1389600E3DFE1 /* Build configuration list for PBXNativeTarget "ChickenSoup Clip" */;
+			buildPhases = (
+				D8C9935524B1389200E3DFE1 /* Sources */,
+				D8C9935624B1389200E3DFE1 /* Frameworks */,
+				D8C9935724B1389200E3DFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChickenSoup Clip";
+			productName = "ChickenSoup Clip";
+			productReference = D8C9935924B1389200E3DFE1 /* ChickenSoup Clip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+		D8C9936E24B1389500E3DFE1 /* ChickenSoup ClipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8C9938C24B1389600E3DFE1 /* Build configuration list for PBXNativeTarget "ChickenSoup ClipTests" */;
+			buildPhases = (
+				D8C9936B24B1389500E3DFE1 /* Sources */,
+				D8C9936C24B1389500E3DFE1 /* Frameworks */,
+				D8C9936D24B1389500E3DFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8C9937124B1389600E3DFE1 /* PBXTargetDependency */,
+			);
+			name = "ChickenSoup ClipTests";
+			productName = "ChickenSoup ClipTests";
+			productReference = D8C9936F24B1389500E3DFE1 /* ChickenSoup ClipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8C9937924B1389600E3DFE1 /* ChickenSoup ClipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8C9938D24B1389600E3DFE1 /* Build configuration list for PBXNativeTarget "ChickenSoup ClipUITests" */;
+			buildPhases = (
+				D8C9937624B1389600E3DFE1 /* Sources */,
+				D8C9937724B1389600E3DFE1 /* Frameworks */,
+				D8C9937824B1389600E3DFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8C9937C24B1389600E3DFE1 /* PBXTargetDependency */,
+			);
+			name = "ChickenSoup ClipUITests";
+			productName = "ChickenSoup ClipUITests";
+			productReference = D8C9937A24B1389600E3DFE1 /* ChickenSoup ClipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -306,12 +501,23 @@
 		D8B2310C2433F3DA00C979F1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Shihchiao Chao";
 				TargetAttributes = {
 					D8B231132433F3DA00C979F1 = {
 						CreatedOnToolsVersion = 11.3.1;
+					};
+					D8C9935824B1389200E3DFE1 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					D8C9936E24B1389500E3DFE1 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D8C9935824B1389200E3DFE1;
+					};
+					D8C9937924B1389600E3DFE1 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D8C9935824B1389200E3DFE1;
 					};
 				};
 			};
@@ -329,6 +535,9 @@
 			projectRoot = "";
 			targets = (
 				D8B231132433F3DA00C979F1 /* ChickenSoup */,
+				D8C9935824B1389200E3DFE1 /* ChickenSoup Clip */,
+				D8C9936E24B1389500E3DFE1 /* ChickenSoup ClipTests */,
+				D8C9937924B1389600E3DFE1 /* ChickenSoup ClipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -338,8 +547,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C9939024B13A4E00E3DFE1 /* SharedAssets.xcassets in Resources */,
 				D8B231242433F3E300C979F1 /* LaunchScreen.storyboard in Resources */,
 				D8B231212433F3E300C979F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C9935724B1389200E3DFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C9939124B13A7400E3DFE1 /* SharedAssets.xcassets in Resources */,
+				D8C9938E24B139BF00E3DFE1 /* LaunchScreen.storyboard in Resources */,
+				D8C9936524B1389500E3DFE1 /* Assets.xcassets in Resources */,
+				D8C9936324B1389200E3DFE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C9936D24B1389500E3DFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C9937824B1389600E3DFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +655,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D8C9935524B1389200E3DFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C9939524B140B800E3DFE1 /* Constants.swift in Sources */,
+				D8C9936024B1389200E3DFE1 /* ViewController.swift in Sources */,
+				D8C9939624B140C100E3DFE1 /* UIView+Ext.swift in Sources */,
+				D8C9939424B140A900E3DFE1 /* QuoteViewController.swift in Sources */,
+				D8C9935C24B1389200E3DFE1 /* AppDelegate.swift in Sources */,
+				D8C9939724B140E800E3DFE1 /* CSCloseButton.swift in Sources */,
+				D8C9935E24B1389200E3DFE1 /* SceneDelegate.swift in Sources */,
+				D8C9939924B140FB00E3DFE1 /* CSTitleLabel.swift in Sources */,
+				D8C9939A24B1410400E3DFE1 /* CSBackgroundImageView.swift in Sources */,
+				D8C9939824B140ED00E3DFE1 /* CSActionButton.swift in Sources */,
+				D8C9939B24B1411500E3DFE1 /* Quote.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C9936B24B1389500E3DFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C9937424B1389600E3DFE1 /* ChickenSoup_ClipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C9937624B1389600E3DFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C9937F24B1389600E3DFE1 /* ChickenSoup_ClipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8C9937124B1389600E3DFE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8C9935824B1389200E3DFE1 /* ChickenSoup Clip */;
+			targetProxy = D8C9937024B1389600E3DFE1 /* PBXContainerItemProxy */;
+		};
+		D8C9937C24B1389600E3DFE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8C9935824B1389200E3DFE1 /* ChickenSoup Clip */;
+			targetProxy = D8C9937B24B1389600E3DFE1 /* PBXContainerItemProxy */;
+		};
+		D8C9938224B1389600E3DFE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8C9935824B1389200E3DFE1 /* ChickenSoup Clip */;
+			targetProxy = D8C9938124B1389600E3DFE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D8B231222433F3E300C979F1 /* LaunchScreen.storyboard */ = {
@@ -429,6 +716,14 @@
 				D8B231232433F3E300C979F1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D8C9936124B1389200E3DFE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8C9936224B1389200E3DFE1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -552,9 +847,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 687A83D962AE5B3206F734BC /* Pods-ChickenSoup.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = V33EQW8FKJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ChickenSoup/Info.plist;
@@ -577,9 +873,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8BF739766E2EF8E7E2439AF0 /* Pods-ChickenSoup.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = V33EQW8FKJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ChickenSoup/Info.plist;
@@ -595,6 +892,144 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8C9938524B1389600E3DFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = "ChickenSoup Clip/ChickenSoup_Clip.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = V33EQW8FKJ;
+				INFOPLIST_FILE = "ChickenSoup Clip/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Joe.ChickenSoup.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = APPCLIP;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8C9938624B1389600E3DFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = "ChickenSoup Clip/ChickenSoup_Clip.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = V33EQW8FKJ;
+				INFOPLIST_FILE = "ChickenSoup Clip/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Joe.ChickenSoup.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = APPCLIP;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8C9938724B1389600E3DFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V33EQW8FKJ;
+				INFOPLIST_FILE = "ChickenSoup ClipTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Joe.ChickenSoup.ChickenSoup-ClipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChickenSoup Clip.app/ChickenSoup Clip";
+			};
+			name = Debug;
+		};
+		D8C9938824B1389600E3DFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V33EQW8FKJ;
+				INFOPLIST_FILE = "ChickenSoup ClipTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Joe.ChickenSoup.ChickenSoup-ClipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChickenSoup Clip.app/ChickenSoup Clip";
+			};
+			name = Release;
+		};
+		D8C9938924B1389600E3DFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V33EQW8FKJ;
+				INFOPLIST_FILE = "ChickenSoup ClipUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Joe.ChickenSoup.ChickenSoup-ClipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ChickenSoup Clip";
+			};
+			name = Debug;
+		};
+		D8C9938A24B1389600E3DFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V33EQW8FKJ;
+				INFOPLIST_FILE = "ChickenSoup ClipUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Joe.ChickenSoup.ChickenSoup-ClipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ChickenSoup Clip";
 			};
 			name = Release;
 		};
@@ -615,6 +1050,33 @@
 			buildConfigurations = (
 				D8B231292433F3E300C979F1 /* Debug */,
 				D8B2312A2433F3E300C979F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8C9938B24B1389600E3DFE1 /* Build configuration list for PBXNativeTarget "ChickenSoup Clip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8C9938524B1389600E3DFE1 /* Debug */,
+				D8C9938624B1389600E3DFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8C9938C24B1389600E3DFE1 /* Build configuration list for PBXNativeTarget "ChickenSoup ClipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8C9938724B1389600E3DFE1 /* Debug */,
+				D8C9938824B1389600E3DFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8C9938D24B1389600E3DFE1 /* Build configuration list for PBXNativeTarget "ChickenSoup ClipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8C9938924B1389600E3DFE1 /* Debug */,
+				D8C9938A24B1389600E3DFE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

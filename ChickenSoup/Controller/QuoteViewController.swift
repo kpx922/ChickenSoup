@@ -33,6 +33,11 @@ class QuoteViewController: UIViewController {
 
         configure()
         layoutUI()
+        
+        #if !APPCLIP
+        configureCloseButton()
+        #endif
+
         setupContent()
     }
 
@@ -101,9 +106,21 @@ class QuoteViewController: UIViewController {
     }
     
     fileprivate func configure() {
-        closeButton.addTarget(self, action: #selector(close), for: .touchUpInside)
-        
         backgroundImageView.addMotionEffect()
+    }
+    
+    fileprivate func configureCloseButton() {
+        let vContentView = vibrancyView.contentView
+        vContentView.addSubview(closeButton)
+        
+        NSLayoutConstraint.activate([
+            closeButton.topAnchor.constraint(equalTo: vContentView.topAnchor, constant: 10),
+            closeButton.leadingAnchor.constraint(equalTo: vContentView.leadingAnchor, constant: 10),
+            closeButton.widthAnchor.constraint(equalToConstant: 50),
+            closeButton.heightAnchor.constraint(equalToConstant: 50)
+            ])
+                                        
+        closeButton.addTarget(self, action: #selector(close), for: .touchUpInside)
     }
     
     fileprivate func layoutUI() {
@@ -111,14 +128,9 @@ class QuoteViewController: UIViewController {
         vibrancyView.pinToEdge(blurView.contentView)
         
         let vContentView = vibrancyView.contentView
-        vContentView.addSubviews(closeButton, quotationLabel, authorLabel, titleLabel)
+        vContentView.addSubviews(quotationLabel, authorLabel, titleLabel)
         
         NSLayoutConstraint.activate([
-            closeButton.topAnchor.constraint(equalTo: vContentView.topAnchor, constant: 10),
-            closeButton.leadingAnchor.constraint(equalTo: vContentView.leadingAnchor, constant: 10),
-            closeButton.widthAnchor.constraint(equalToConstant: 50),
-            closeButton.heightAnchor.constraint(equalToConstant: 50),
-            
             quotationLabel.centerXAnchor.constraint(equalTo: vContentView.centerXAnchor),
             quotationLabel.centerYAnchor.constraint(equalTo: vContentView.centerYAnchor, constant: -40),
             quotationLabel.widthAnchor.constraint(equalTo: vContentView.widthAnchor, constant: -50),
