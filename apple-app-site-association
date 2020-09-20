@@ -1,5 +1,9 @@
 {
     "appclips": {
+<<<<<<< HEAD
         "apps": ["V33EQW8FKJ.Joe.ChickenSoup.Clip"]
+=======
+        "apps": [ "V33EQW8FKJ.Joe.ChickenSoup.Clip" ]
+>>>>>>> b3aca5b4b1bab38e72b67d7fdb920c2f078c2eea
     }
 }
