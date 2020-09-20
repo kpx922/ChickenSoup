@@ -107,8 +107,11 @@ class CSAlertViewController: UIViewController {
     }
     
     @objc fileprivate func dismissViewController(completion: @escaping () -> Void) {
-        dismiss(animated: true) {
-            self.dismissDelegate?.alertDidDismissed()
+        DispatchQueue.main.async { [weak self] in
+            guard let self = self else { return }
+            self.dismiss(animated: true) {
+                self.dismissDelegate?.alertDidDismissed()
+            }
         }
     }
     

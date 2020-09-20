@@ -91,7 +91,7 @@ class AdView: UIView {
 
 extension AdView: GADBannerViewDelegate {
     func adViewDidReceiveAd(_ bannerView: GADBannerView) {
-        print("Banner adapter class name: \(bannerView.responseInfo?.adNetworkClassName)")
+        print("Banner adapter class name: \(bannerView.responseInfo?.adNetworkClassName ?? "")")
         addBannerView()
     }
     

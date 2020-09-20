@@ -30,7 +30,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard userActivity.activityType == NSUserActivityTypeBrowsingWeb,
             let incomingUrl = userActivity.webpageURL,
-            let components = NSURLComponents(url: incomingUrl, resolvingAgainstBaseURL: true)
+            let _ = NSURLComponents(url: incomingUrl, resolvingAgainstBaseURL: true)
         else {
             print("App clip failed")
             return
