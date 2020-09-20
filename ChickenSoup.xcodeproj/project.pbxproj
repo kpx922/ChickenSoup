@@ -853,7 +853,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ChickenSoup/ChickenSoup.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V33EQW8FKJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ChickenSoup/Info.plist;
@@ -865,6 +865,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ChickenSoup",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = Joe.ChickenSoup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -880,7 +881,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ChickenSoup/ChickenSoup.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V33EQW8FKJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ChickenSoup/Info.plist;
@@ -892,6 +893,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ChickenSoup",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = Joe.ChickenSoup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -907,7 +909,7 @@
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_ENTITLEMENTS = "ChickenSoup Clip/ChickenSoup_Clip.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V33EQW8FKJ;
 				INFOPLIST_FILE = "ChickenSoup Clip/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -915,6 +917,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = Joe.ChickenSoup.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = APPCLIP;
@@ -931,7 +934,7 @@
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_ENTITLEMENTS = "ChickenSoup Clip/ChickenSoup_Clip.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V33EQW8FKJ;
 				INFOPLIST_FILE = "ChickenSoup Clip/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -939,6 +942,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = Joe.ChickenSoup.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = APPCLIP;

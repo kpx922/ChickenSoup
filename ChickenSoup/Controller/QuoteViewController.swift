@@ -91,17 +91,20 @@ class QuoteViewController: UIViewController {
     fileprivate func getAndUpdateSODFromUserDefaults() -> Quote {
         let type = Quotations.type.soupOfTheDay
         
+        let date = Date()
+        let rand = Int.random(in: 0..<Quotations.allQuotes.count)
+        
+        #if !APPCLIP
         if let today = userDefaults.object(forKey: type.rawValue + "date") as? Date {
             if Calendar.current.isDateInToday(today) {
                 let sod = userDefaults.integer(forKey: type.rawValue + "sod")
                 return Quotations.allQuotes[sod]
             }
         }
-        
-        let date = Date()
-        let rand = Int.random(in: 0..<Quotations.allQuotes.count)
         userDefaults.set(date, forKey: type.rawValue + "date")
         userDefaults.set(rand, forKey: type.rawValue + "sod")
+        #endif
+        
         return Quotations.allQuotes[rand]
     }
     

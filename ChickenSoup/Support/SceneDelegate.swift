@@ -16,15 +16,29 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
-        
         window?.windowScene = windowScene
+        
         window?.makeKeyAndVisible()
         
         let mainTableVC = MainTableViewController()
         let navController = UINavigationController(rootViewController: mainTableVC)
         window?.rootViewController = navController //mainTableVC
     }
-
+    
+    func scene(_ scene: UIScene, continue userActivity: NSUserActivity) {
+        print("soup userActivity")
+        
+        guard userActivity.activityType == NSUserActivityTypeBrowsingWeb,
+            let incomingUrl = userActivity.webpageURL,
+            let components = NSURLComponents(url: incomingUrl, resolvingAgainstBaseURL: true)
+        else {
+            print("App clip failed")
+            return
+        }
+        
+        print("App clip success")
+    }
+    
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.
