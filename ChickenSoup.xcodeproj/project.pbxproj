@@ -55,6 +55,9 @@
 		D8C9939924B140FB00E3DFE1 /* CSTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2313F24372AFB00C979F1 /* CSTitleLabel.swift */; };
 		D8C9939A24B1410400E3DFE1 /* CSBackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2313C243727D100C979F1 /* CSBackgroundImageView.swift */; };
 		D8C9939B24B1411500E3DFE1 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E7E11248866A30045AB96 /* Quote.swift */; };
+		D8F023DE2519772900511095 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8F023DD2519772900511095 /* GoogleService-Info.plist */; };
+		D8F023DF2519772900511095 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8F023DD2519772900511095 /* GoogleService-Info.plist */; };
+		D8F02402251993B700511095 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F02401251993B700511095 /* FirebaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +147,8 @@
 		D8C9937E24B1389600E3DFE1 /* ChickenSoup_ClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenSoup_ClipUITests.swift; sourceTree = "<group>"; };
 		D8C9938024B1389600E3DFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8C9938F24B13A4E00E3DFE1 /* SharedAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SharedAssets.xcassets; sourceTree = "<group>"; };
+		D8F023DD2519772900511095 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D8F02401251993B700511095 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		E40F8CC7B03B0D95D24D0EA8 /* Pods_ChickenSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChickenSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -194,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				D85E7DEC245E5BFB0045AB96 /* PurchaseManager.swift */,
+				D8F02401251993B700511095 /* FirebaseManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -302,6 +308,7 @@
 				D8B23132243559A600C979F1 /* Utility */,
 				D8B2312B2435436F00C979F1 /* Support */,
 				D8B231252433F3E300C979F1 /* Info.plist */,
+				D8F023DD2519772900511095 /* GoogleService-Info.plist */,
 			);
 			path = ChickenSoup;
 			sourceTree = "<group>";
@@ -550,6 +557,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8C9939024B13A4E00E3DFE1 /* SharedAssets.xcassets in Resources */,
+				D8F023DE2519772900511095 /* GoogleService-Info.plist in Resources */,
 				D8B231242433F3E300C979F1 /* LaunchScreen.storyboard in Resources */,
 				D8B231212433F3E300C979F1 /* Assets.xcassets in Resources */,
 			);
@@ -561,6 +569,7 @@
 			files = (
 				D8C9939124B13A7400E3DFE1 /* SharedAssets.xcassets in Resources */,
 				D8C9938E24B139BF00E3DFE1 /* LaunchScreen.storyboard in Resources */,
+				D8F023DF2519772900511095 /* GoogleService-Info.plist in Resources */,
 				D8C9936524B1389500E3DFE1 /* Assets.xcassets in Resources */,
 				D8C9936324B1389200E3DFE1 /* Main.storyboard in Resources */,
 			);
@@ -629,6 +638,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F02402251993B700511095 /* FirebaseManager.swift in Sources */,
 				D85E7E0C24871E740045AB96 /* CSMenuCloseButtonView.swift in Sources */,
 				D8B2313D243727D100C979F1 /* CSBackgroundImageView.swift in Sources */,
 				D85E7DF9247F30680045AB96 /* CSCloseButton.swift in Sources */,
@@ -855,7 +865,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ChickenSoup/ChickenSoup.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = V33EQW8FKJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ChickenSoup/Info.plist;
@@ -883,7 +893,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ChickenSoup/ChickenSoup.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = V33EQW8FKJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ChickenSoup/Info.plist;
@@ -911,7 +921,7 @@
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_ENTITLEMENTS = "ChickenSoup Clip/ChickenSoup_Clip.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = V33EQW8FKJ;
 				INFOPLIST_FILE = "ChickenSoup Clip/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -936,7 +946,7 @@
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_ENTITLEMENTS = "ChickenSoup Clip/ChickenSoup_Clip.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = V33EQW8FKJ;
 				INFOPLIST_FILE = "ChickenSoup Clip/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

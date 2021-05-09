@@ -85,7 +85,8 @@ enum Quotations {
         Quote(type: type.positivity, author: "Deborah Day", quote: "Beliefs that are good promote your potential and enhance your unique special qualities."),
         Quote(type: type.positivity, author: "Rodolfo Costa", quote: "Cultivate an optimistic mind, use your imagination, always consider alternatives, and dare to believe that you can make possible what others think is impossible."),
         Quote(type: type.positivity, author: "Remez Sasson", quote: "“A powerful attitude awakens inner strength, energy, motivation, and initiative."),
-        Quote(type: type.positivity, author: "L.F. Young", quote: "Don’t hang with negative people. They will pull you down with them. Instead, invite them into your light and together you will both shine strong.")
+        Quote(type: type.positivity, author: "L.F. Young", quote: "Don’t hang with negative people. They will pull you down with them. Instead, invite them into your light and together you will both shine strong."),
+        Quote(type: type.positivity, author: "J. Sidlow Baxter", quote: "What is the difference between an obstacle and an opportunity? Our attitude toward it. Every opportunity has a difficult, and every difficulty has an opportunity.")
     ]
     
     static let negativity = [
@@ -130,6 +131,14 @@ enum Quotations {
         Quote(type: type.negativity, quote: "People are always like “Are you a morning person or a night person?” and I’m just like “Mate, I’m barely even a person.”"),
         Quote(type: type.negativity, quote: "I’m not running away from hard work, I’m too lazy to run."),
         Quote(type: type.negativity, quote: "“Do you hate people?”\n“I don't hate them...I just feel better when they're not around.”"),
-        Quote(type: type.negativity, quote: "Never put off the work till tomorrow what you can put off today.")
+        Quote(type: type.negativity, quote: "Never put off the work till tomorrow what you can put off today."),
+        Quote(type: type.negativity, author: "David Letterman", quote: "Everyone has a purpose in life. Perhaps yours is watching television."),
+        Quote(type: type.negativity, author: "George Carlin", quote: "I’m in shape. Round is a shape."),
+        Quote(type: type.negativity, author: "Bob Hope", quote: "A bank is a place that will lend you money if you can prove that you don’t need it."),
+        Quote(type: type.negativity, author: "David Letterman", quote: "Everyone has a purpose in life. Perhaps yours is watching television."),
+        Quote(type: type.negativity, author: "Abraham Lincoln", quote: "Better to remain silent and be thought a fool than to speak out and remove all doubt."),
+        Quote(type: type.negativity, author: "A. A. Milne", quote: "People say nothing is impossible, but I do nothing everyday."),
+        Quote(type: type.negativity, author: "John Wayne", quote: "Life is hard; it’s harder if you’re stupid."),
+        Quote(type: type.negativity, author: "David Letterman", quote: "Everyone has a purpose in life. Perhaps yours is watching television."),
     ]
 }

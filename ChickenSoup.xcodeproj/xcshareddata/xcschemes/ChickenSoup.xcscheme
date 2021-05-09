@@ -61,7 +61,7 @@
          <EnvironmentVariable
             key = "_XCAppClipURL"
             value = "https://daily-chicken-soup.herokuapp.com"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </EnvironmentVariable>
       </EnvironmentVariables>
    </LaunchAction>
