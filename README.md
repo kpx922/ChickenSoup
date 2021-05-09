@@ -3,28 +3,40 @@ To keep up with your daily life, everybody need inspiring and humorous quotes.
 
 
 ## Screenshots
-<img src="GHPreviewAssets/GHF-Search.gif" width=180 align=left>
-<img src="GHPreviewAssets/GHF-SearchWithNoFollower.gif" width=180 align=left>
-<img src="GHPreviewAssets/GHF-UserInfo.gif" width=180 align=left>
-<img src="GHPreviewAssets/GHF-Favorites(add).gif" width=180>
+<img src="PreviewAssets/homepage.png" width=180 align=left>
+<img src="PreviewAssets/sod.png" width=180 align=left>
+<img src="PreviewAssets/positive.png" width=180 align=left>
+<img src="PreviewAssets/negative.png" width=180>
 
-
-## Flow(what Github Follwers will do)
-  1. search a github user and display his/her all followers
-  2. show the follower's detail infomation:
-      - username, name, location, bio
-      - public repos, gists, and the link to profile
-      - follwers, follering, and his/her followers
-  3. Display/Manage user's favorite github users
-      - user can add(store) their own favorite after searched
-      - user can also delete them from favorites :(
+## Flow
+  1. Main page with three buttons to present three different categories of quotes
+    - daily quote
+    - positive quote
+    - negative quote
+  2. Imbed google ads to the app
+    - user can remove the ad from their app
 
 ## Tech
 #### MVC
   - Basic MVC design to separate view and viewContorller
   
-#### CollectionView
-  - Utilizing custom UICollectionViewFlowLayout to layout UICollectionView.
+#### TableView
+  - Utilizing custom UITableViewCell to layout UITablenView.
+
+#### Interactive MotionEffect
+  - Utilizing UIInterpolatingMotionEffect to achieve an interactive motion effect experince with user
+
+#### Blur & Vibrancy Effect
+  - Build up UI mainly with blur and vibrancy effect
+
+#### Google Ad
+  - Integrate Google Ads to the app
   
-#### Search
-  - Use UISearchController combine with NSDiffableDataSourceSnapshot to achieve a smooth animation search expirence.
+#### In-App Purchase
+  - Add an ad removal process with in-app purchase
+  - can also restore the purchase with a "restore purchase" button
+
+## Improvement
+  - Continue to move all quotes to the firebase
+  - Add more functions like sharing, store favorite quotes, ...ect
+
