@@ -1,4 +1,6 @@
-# ChickenSoup
+<img align="left" width="80" height="80" src="PreviewAssets/Icon-App-60x60@3x.png" alt="iOS resume application project app icon">
+
+# ChickenSoup  
 To keep up with your daily life, everybody need inspiring and humorous quotes.
 
 
